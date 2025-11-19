@@ -9,5 +9,16 @@ package paqueteclases;
  * @author UTPL
  */
 public class Ejemplo01 {
-    
+     public static void main(String[] args) {
+         int contador = 1;
+         int limite = 10;
+         
+         while (contador >= limite);
+          
+         if (contador%2!=0){
+             System.out.printf("Contador %d\n", contador);
+         }
+         contador = contador + 1;
+         
+     }
 }
